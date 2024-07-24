@@ -1,0 +1,58 @@
+running egg_info
+creating ../build/ROBOv2/ROBOv2.egg-info
+writing ../build/ROBOv2/ROBOv2.egg-info/PKG-INFO
+writing dependency_links to ../build/ROBOv2/ROBOv2.egg-info/dependency_links.txt
+writing entry points to ../build/ROBOv2/ROBOv2.egg-info/entry_points.txt
+writing requirements to ../build/ROBOv2/ROBOv2.egg-info/requires.txt
+writing top-level names to ../build/ROBOv2/ROBOv2.egg-info/top_level.txt
+writing manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+reading manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+writing manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/duallife/projects/urdf/build/ROBOv2/build
+creating /home/duallife/projects/urdf/build/ROBOv2/build/lib
+creating /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+copying ROBOv2/jointAnglePub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+copying ROBOv2/__init__.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+copying ROBOv2/test_sub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+copying ROBOv2/test_pub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+running install
+running install_lib
+creating /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/jointAnglePub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/__init__.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/test_sub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/test_pub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/jointAnglePub.py to jointAnglePub.cpython-310.pyc
+byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/test_sub.py to test_sub.cpython-310.pyc
+byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/test_pub.py to test_pub.cpython-310.pyc
+running install_data
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index/packages
+copying resource/ROBOv2 -> /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index/packages
+copying package.xml -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+copying launch/gazebo.launch.py -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+copying launch/display_rviz2.launch.py -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+copying urdf/ROBOv2.urdf -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+copying urdf/ROBOv2gazebo.urdf -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+copying urdf/ROBOv2.csv -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link4.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link3.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link6.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link5.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link2.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/base_link.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+copying meshes/link1.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+running install_egg_info
+Copying ../build/ROBOv2/ROBOv2.egg-info to /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing jointAnglePub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+Installing test_pub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+Installing test_sub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+writing list of installed files to '/home/duallife/projects/urdf/build/ROBOv2/install.log'

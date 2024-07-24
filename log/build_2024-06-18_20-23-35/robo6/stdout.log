@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/robo6/robo6.egg-info
+writing ../build/robo6/robo6.egg-info/PKG-INFO
+writing dependency_links to ../build/robo6/robo6.egg-info/dependency_links.txt
+writing entry points to ../build/robo6/robo6.egg-info/entry_points.txt
+writing requirements to ../build/robo6/robo6.egg-info/requires.txt
+writing top-level names to ../build/robo6/robo6.egg-info/top_level.txt
+writing manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+reading manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+writing manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/duallife/projects/urdf/build/robo6/build
+creating /home/duallife/projects/urdf/build/robo6/build/lib
+creating /home/duallife/projects/urdf/build/robo6/build/lib/robo6
+copying robo6/__init__.py -> /home/duallife/projects/urdf/build/robo6/build/lib/robo6
+running install
+running install_lib
+creating /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6
+copying /home/duallife/projects/urdf/build/robo6/build/lib/robo6/__init__.py -> /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6
+byte-compiling /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/duallife/projects/urdf/install/robo6/share/ament_index
+creating /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index
+creating /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index/packages
+copying resource/robo6 -> /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index/packages
+copying package.xml -> /home/duallife/projects/urdf/install/robo6/share/robo6
+creating /home/duallife/projects/urdf/install/robo6/share/robo6/launch
+copying launch/display_rviz2.launch.py -> /home/duallife/projects/urdf/install/robo6/share/robo6/launch
+creating /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+copying urdf/robo6.csv -> /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+copying urdf/robo6.urdf -> /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+creating /home/duallife/projects/urdf/install/robo6/share/robo6/meshes
+running install_egg_info
+Copying ../build/robo6/robo6.egg-info to /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/duallife/projects/urdf/build/robo6/install.log'

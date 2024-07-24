@@ -1,0 +1,5 @@
+[console_scripts]
+jointAnglePub = ROBOv2.jointAnglePub:main
+test_pub = ROBOv2.test_pub:main
+test_sub = ROBOv2.test_sub:main
+

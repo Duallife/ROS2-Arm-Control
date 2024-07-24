@@ -1,0 +1,5 @@
+[console_scripts]
+jointAnglePub = robo6.jointAnglePub:main
+test_pub = robo6.test_pub:main
+test_sub = robo6.test_sub:main
+

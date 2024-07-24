@@ -1,0 +1,60 @@
+[0.710s] Invoking command in '/home/duallife/projects/urdf/ROBOv2': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data
+[0.884s] running egg_info
+[0.884s] creating ../build/ROBOv2/ROBOv2.egg-info
+[0.885s] writing ../build/ROBOv2/ROBOv2.egg-info/PKG-INFO
+[0.885s] writing dependency_links to ../build/ROBOv2/ROBOv2.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../build/ROBOv2/ROBOv2.egg-info/entry_points.txt
+[0.885s] writing requirements to ../build/ROBOv2/ROBOv2.egg-info/requires.txt
+[0.885s] writing top-level names to ../build/ROBOv2/ROBOv2.egg-info/top_level.txt
+[0.885s] writing manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+[0.886s] reading manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+[0.887s] writing manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+[0.887s] running build
+[0.887s] running build_py
+[0.887s] creating /home/duallife/projects/urdf/build/ROBOv2/build
+[0.887s] creating /home/duallife/projects/urdf/build/ROBOv2/build/lib
+[0.887s] creating /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+[0.887s] copying ROBOv2/jointAnglePub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+[0.887s] copying ROBOv2/__init__.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+[0.887s] copying ROBOv2/test_sub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+[0.887s] copying ROBOv2/test_pub.py -> /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2
+[0.887s] running install
+[0.887s] running install_lib
+[0.888s] creating /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+[0.888s] copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/jointAnglePub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+[0.888s] copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/__init__.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+[0.888s] copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/test_sub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+[0.888s] copying /home/duallife/projects/urdf/build/ROBOv2/build/lib/ROBOv2/test_pub.py -> /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2
+[0.889s] byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/jointAnglePub.py to jointAnglePub.cpython-310.pyc
+[0.889s] byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/__init__.py to __init__.cpython-310.pyc
+[0.890s] byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/test_sub.py to test_sub.cpython-310.pyc
+[0.890s] byte-compiling /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2/test_pub.py to test_pub.cpython-310.pyc
+[0.890s] running install_data
+[0.890s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index
+[0.890s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index
+[0.890s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index/packages
+[0.890s] copying resource/ROBOv2 -> /home/duallife/projects/urdf/install/ROBOv2/share/ament_index/resource_index/packages
+[0.890s] copying package.xml -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2
+[0.891s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+[0.891s] copying launch/gazebo.launch.py -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+[0.891s] copying launch/display_rviz2.launch.py -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/launch
+[0.891s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+[0.891s] copying urdf/ROBOv2.urdf -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+[0.891s] copying urdf/ROBOv2gazebo.urdf -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+[0.891s] copying urdf/ROBOv2.csv -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+[0.891s] creating /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.891s] copying meshes/link4.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.891s] copying meshes/link3.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.892s] copying meshes/link6.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.892s] copying meshes/link5.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.895s] copying meshes/link2.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.897s] copying meshes/base_link.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.899s] copying meshes/link1.STL -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/meshes
+[0.901s] running install_egg_info
+[0.902s] Copying ../build/ROBOv2/ROBOv2.egg-info to /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.917s] Installing jointAnglePub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.917s] Installing test_pub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.917s] Installing test_sub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.918s] writing list of installed files to '/home/duallife/projects/urdf/build/ROBOv2/install.log'
+[0.942s] Invoked command in '/home/duallife/projects/urdf/ROBOv2' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data

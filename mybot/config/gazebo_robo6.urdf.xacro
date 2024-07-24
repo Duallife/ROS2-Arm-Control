@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robo6">
+
+    <!-- Used for fixing robot to Gazebo 'base_link' 将机械手的基座固定在世界坐标上-->
+    <link name="world"/>
+    <joint name="fixed" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+    </joint>
+
+    <xacro:include filename="$(find robo6)/urdf/robo6gazebo.urdf" />
+
+    <!-- 对一些link进行gazebo的属性设置 -->
+    <gazebo reference="base_link">
+        <material>Gazebo/Purple</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link1">
+        <material>Gazebo/Purple</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link2">
+        <material>Gazebo/Red</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link3">
+        <material>Gazebo/Blue</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link4">
+        <material>Gazebo/Green</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link5">
+        <material>Gazebo/Yellow</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="Link6">
+        <material>Gazebo/Orange</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+
+    <!-- 设置不了静态，不知为啥 -->
+    <gazebo>
+        <is_static>true</is_static>
+        <!-- <static>true</static> -->
+        <self_collide>false</self_collide>
+    </gazebo>
+        <!-- <xacro:macro name="robo6_ros2_control" params="name initial_positions_file"> -->
+            <!-- <xacro:property name="initial_positions" value="${load_yaml(initial_positions_file)['initial_positions']}"/> -->
+
+            <ros2_control name="GazeboSystem" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                <!-- <plugin>mock_components/GenericSystem</plugin> -->
+            </hardware>
+            <joint name="Joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="Joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="Joint3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="Joint4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="Joint5">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="Joint6">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+
+        </ros2_control>
+
+        <gazebo>
+            <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+                <parameters>$(find mybot)/config/ros2_controllers.yaml</parameters>
+                <robot_param>robot_description</robot_param>
+                <robot_param_node>robot_state_publisher</robot_param_node>
+            </plugin>
+        </gazebo>
+
+</robot>
+
+    

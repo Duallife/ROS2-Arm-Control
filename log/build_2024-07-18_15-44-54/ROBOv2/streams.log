@@ -1,0 +1,24 @@
+[0.729s] Invoking command in '/home/duallife/projects/urdf/ROBOv2': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data
+[0.913s] running egg_info
+[0.914s] writing ../build/ROBOv2/ROBOv2.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../build/ROBOv2/ROBOv2.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../build/ROBOv2/ROBOv2.egg-info/entry_points.txt
+[0.914s] writing requirements to ../build/ROBOv2/ROBOv2.egg-info/requires.txt
+[0.914s] writing top-level names to ../build/ROBOv2/ROBOv2.egg-info/top_level.txt
+[0.915s] reading manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+[0.916s] writing manifest file '../build/ROBOv2/ROBOv2.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] running install
+[0.917s] running install_lib
+[0.918s] running install_data
+[0.918s] copying urdf/ROBOv2.urdf -> /home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/urdf
+[0.918s] running install_egg_info
+[0.920s] removing '/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2-1.0.0-py3.10.egg-info' (and everything under it)
+[0.920s] Copying ../build/ROBOv2/ROBOv2.egg-info to /home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages/ROBOv2-1.0.0-py3.10.egg-info
+[0.921s] running install_scripts
+[0.937s] Installing jointAnglePub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.937s] Installing test_pub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.937s] Installing test_sub script to /home/duallife/projects/urdf/install/ROBOv2/lib/ROBOv2
+[0.938s] writing list of installed files to '/home/duallife/projects/urdf/build/ROBOv2/install.log'
+[0.985s] Invoked command in '/home/duallife/projects/urdf/ROBOv2' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+Invoking command in '/home/duallife/projects/urdf/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duallife/projects/urdf/interface -DCMAKE_INSTALL_PREFIX=/home/duallife/projects/urdf/install/interface
+Invoked command in '/home/duallife/projects/urdf/build/interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/duallife/projects/urdf/interface -DCMAKE_INSTALL_PREFIX=/home/duallife/projects/urdf/install/interface

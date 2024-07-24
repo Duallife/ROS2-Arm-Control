@@ -1,0 +1,39 @@
+[0.425s] Invoking command in '/home/duallife/projects/urdf/robo6': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data
+[0.581s] running egg_info
+[0.581s] creating ../build/robo6/robo6.egg-info
+[0.582s] writing ../build/robo6/robo6.egg-info/PKG-INFO
+[0.582s] writing dependency_links to ../build/robo6/robo6.egg-info/dependency_links.txt
+[0.582s] writing entry points to ../build/robo6/robo6.egg-info/entry_points.txt
+[0.582s] writing requirements to ../build/robo6/robo6.egg-info/requires.txt
+[0.582s] writing top-level names to ../build/robo6/robo6.egg-info/top_level.txt
+[0.582s] writing manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+[0.583s] reading manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+[0.583s] writing manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+[0.583s] running build
+[0.583s] running build_py
+[0.583s] creating /home/duallife/projects/urdf/build/robo6/build
+[0.584s] creating /home/duallife/projects/urdf/build/robo6/build/lib
+[0.584s] creating /home/duallife/projects/urdf/build/robo6/build/lib/robo6
+[0.584s] copying robo6/__init__.py -> /home/duallife/projects/urdf/build/robo6/build/lib/robo6
+[0.584s] running install
+[0.584s] running install_lib
+[0.584s] creating /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6
+[0.584s] copying /home/duallife/projects/urdf/build/robo6/build/lib/robo6/__init__.py -> /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6
+[0.585s] byte-compiling /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6/__init__.py to __init__.cpython-310.pyc
+[0.585s] running install_data
+[0.585s] creating /home/duallife/projects/urdf/install/robo6/share/ament_index
+[0.585s] creating /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index
+[0.585s] creating /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index/packages
+[0.585s] copying resource/robo6 -> /home/duallife/projects/urdf/install/robo6/share/ament_index/resource_index/packages
+[0.585s] copying package.xml -> /home/duallife/projects/urdf/install/robo6/share/robo6
+[0.585s] creating /home/duallife/projects/urdf/install/robo6/share/robo6/launch
+[0.585s] copying launch/display_rviz2.launch.py -> /home/duallife/projects/urdf/install/robo6/share/robo6/launch
+[0.585s] creating /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+[0.585s] copying urdf/robo6.csv -> /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+[0.585s] copying urdf/robo6.urdf -> /home/duallife/projects/urdf/install/robo6/share/robo6/urdf
+[0.586s] creating /home/duallife/projects/urdf/install/robo6/share/robo6/meshes
+[0.586s] running install_egg_info
+[0.587s] Copying ../build/robo6/robo6.egg-info to /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6-0.0.0-py3.10.egg-info
+[0.587s] running install_scripts
+[0.601s] writing list of installed files to '/home/duallife/projects/urdf/build/robo6/install.log'
+[0.619s] Invoked command in '/home/duallife/projects/urdf/robo6' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data

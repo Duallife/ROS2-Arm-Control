@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robo6
+    relative_path: urdf/robo6.urdf
+  srdf:
+    relative_path: config/robo6.srdf
+  package_settings:
+    author_name: duallife
+    author_email: ricky.y2738@gmail.com
+    generated_timestamp: 1719650027
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position

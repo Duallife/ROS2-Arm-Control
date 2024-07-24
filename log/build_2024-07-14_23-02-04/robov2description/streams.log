@@ -1,0 +1,45 @@
+[0.013s] Invoking command in '/home/duallife/projects/urdf/build/robov2description': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/duallife/projects/urdf/build/robov2description -- -j16 -l16
+[0.055s] Invoked command in '/home/duallife/projects/urdf/build/robov2description' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/duallife/projects/urdf/build/robov2description -- -j16 -l16
+[0.079s] Invoking command in '/home/duallife/projects/urdf/build/robov2description': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/duallife/projects/urdf/build/robov2description
+[0.085s] -- Install configuration: ""
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/ament_index/resource_index/package_run_dependencies/robov2description
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/ament_index/resource_index/parent_prefix_path/robov2description
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/environment/path.sh
+[0.086s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/environment/path.dsv
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/local_setup.bash
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/local_setup.sh
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/local_setup.zsh
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/local_setup.dsv
+[0.087s] -- Installing: /home/duallife/projects/urdf/install/robov2description/share/robov2description/package.dsv
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/ament_index/resource_index/packages/robov2description
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/cmake/robov2descriptionConfig.cmake
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/cmake/robov2descriptionConfig-version.cmake
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/package.xml
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/warehouse_db.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/gazebo_moveit_rviz.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/move_group.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/spawn_controllers.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/rsp.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/botlaunch.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/static_virtual_joint_tfs.launch.py
+[0.087s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/gazebo.launch.py
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/demo.launch.py
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/setup_assistant.launch.py
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/launch/moveit_rviz.launch.py
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/moveit.rviz
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/pilz_cartesian_limits.yaml
+[0.088s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/ros2_controllers.yaml
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/ROBOv2.srdf
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/kinematics.yaml
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/initial_positions.yaml
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/moveit_controllers.yaml
+[0.089s] -- Installing: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/gazebo_ROBOv2.urdf.xacro
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/ROBOv2.urdf.xacro
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/joint_limits.yaml
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/config/ROBOv2.ros2_control.xacro
+[0.089s] -- Up-to-date: /home/duallife/projects/urdf/install/robov2description/share/robov2description/.setup_assistant
+[0.089s] Invoked command in '/home/duallife/projects/urdf/build/robov2description' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/duallife/projects/urdf/build/robov2description

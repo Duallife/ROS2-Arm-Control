@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/duallife/projects/urdf/build/mybotv2': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybotv2 -- -j16 -l16
+[0.048s] Invoked command in '/home/duallife/projects/urdf/build/mybotv2' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybotv2 -- -j16 -l16
+[0.071s] Invoking command in '/home/duallife/projects/urdf/build/mybotv2': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybotv2
+[0.078s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/ament_index/resource_index/package_run_dependencies/mybotv2
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/ament_index/resource_index/parent_prefix_path/mybotv2
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/environment/path.sh
+[0.079s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/environment/path.dsv
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/local_setup.bash
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/local_setup.sh
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/local_setup.zsh
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/local_setup.dsv
+[0.080s] -- Installing: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.dsv
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/ament_index/resource_index/packages/mybotv2
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/cmake/mybotv2Config.cmake
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/cmake/mybotv2Config-version.cmake
+[0.080s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.xml
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/warehouse_db.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/gazebo_moveit_rviz.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/move_group.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/spawn_controllers.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/rsp.launch.py
+[0.081s] -- Installing: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/botlaunch.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/static_virtual_joint_tfs.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/gazebo.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/demo.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/setup_assistant.launch.py
+[0.081s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/launch/moveit_rviz.launch.py
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/moveit.rviz
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/pilz_cartesian_limits.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/ros2_controllers.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/ROBOv2.srdf
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/kinematics.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/initial_positions.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/moveit_controllers.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/gazebo_ROBOv2.urdf.xacro
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/ROBOv2.urdf.xacro
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/joint_limits.yaml
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/config/ROBOv2.ros2_control.xacro
+[0.082s] -- Up-to-date: /home/duallife/projects/urdf/install/mybotv2/share/mybotv2/.setup_assistant
+[0.090s] Invoked command in '/home/duallife/projects/urdf/build/mybotv2' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybotv2

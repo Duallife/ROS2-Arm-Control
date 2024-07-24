@@ -1,0 +1,368 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d28f8726050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d28f8725b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d28f8725b10>>)
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.197s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/duallife/projects/urdf'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ROBOv2) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'ROBOv2' with type 'ros.ament_python' and name 'ROBOv2'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(interface) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'interface' with type 'ros.ament_cmake' and name 'interface'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(mybot) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'mybot' with type 'ros.ament_cmake' and name 'mybot'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(mybotv2) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'mybotv2' with type 'ros.ament_cmake' and name 'mybotv2'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robo6) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'robo6' with type 'ros.ament_python' and name 'robo6'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/duallife/projects/urdf/install
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.272s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ROBOv2' is in: /home/duallife/projects/urdf/install/ROBOv2
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ROBOv2
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'ROBOv2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'ROBOv2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duallife/projects/urdf/build/ROBOv2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duallife/projects/urdf/install/ROBOv2', 'merge_install': False, 'path': '/home/duallife/projects/urdf/ROBOv2', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duallife/projects/urdf/build/interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duallife/projects/urdf/install/interface', 'merge_install': False, 'path': '/home/duallife/projects/urdf/interface', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'robo6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'robo6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duallife/projects/urdf/build/robo6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duallife/projects/urdf/install/robo6', 'merge_install': False, 'path': '/home/duallife/projects/urdf/robo6', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'mybot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duallife/projects/urdf/build/mybot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duallife/projects/urdf/install/mybot', 'merge_install': False, 'path': '/home/duallife/projects/urdf/mybot', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'mybotv2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'mybotv2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/duallife/projects/urdf/build/mybotv2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/duallife/projects/urdf/install/mybotv2', 'merge_install': False, 'path': '/home/duallife/projects/urdf/mybotv2', 'symlink_install': False, 'test_result_base': None}
+[0.275s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duallife/projects/urdf/ROBOv2' with build type 'ament_python'
+[0.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('ROBOv2', 'ament_prefix_path')
+[0.278s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/ament_prefix_path.ps1'
+[0.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/ament_prefix_path.dsv'
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/ament_prefix_path.sh'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/duallife/projects/urdf/robo6' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo6', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/ament_prefix_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/ament_prefix_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/ament_prefix_path.sh'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duallife/projects/urdf/interface' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duallife/projects/urdf/interface'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duallife/projects/urdf/ROBOv2'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/duallife/projects/urdf/robo6'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --build /home/duallife/projects/urdf/build/interface -- -j16 -l16
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/ROBOv2': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --build /home/duallife/projects/urdf/build/interface -- -j16 -l16
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/robo6': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data
+[1.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --install /home/duallife/projects/urdf/build/interface
+[1.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --install /home/duallife/projects/urdf/build/interface
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface' for CMake config files
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib'
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib/pkgconfig/interface.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib/python3.10/site-packages'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/bin'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/interface/share/interface/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.bash'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.zsh'
+[1.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/interface/share/colcon-core/packages/interface)
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2' for CMake module files
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/ROBOv2' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/ROBOv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROBOv2 build --build-base /home/duallife/projects/urdf/build/ROBOv2/build install --record /home/duallife/projects/urdf/build/ROBOv2/install.log --single-version-externally-managed install_data
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2' for CMake config files
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2/lib'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2/lib/pkgconfig/ROBOv2.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('ROBOv2', 'pythonpath')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/pythonpath.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/pythonpath.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/hook/pythonpath.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/ROBOv2/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ROBOv2)
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/package.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/package.bash'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/ROBOv2/share/ROBOv2/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/ROBOv2/share/colcon-core/packages/ROBOv2)
+[1.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duallife/projects/urdf/mybotv2' with build type 'ament_cmake'
+[1.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duallife/projects/urdf/mybotv2'
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface' for CMake module files
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/mybotv2': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybotv2 -- -j16 -l16
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface' for CMake config files
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib'
+[1.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib/pkgconfig/interface.pc'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/lib/python3.10/site-packages'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/interface/bin'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.ps1'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/interface/share/interface/package.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.sh'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.bash'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/interface/share/interface/package.zsh'
+[1.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/interface/share/colcon-core/packages/interface)
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6' for CMake module files
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/robo6' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6' for CMake config files
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6/lib'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6/bin'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6/lib/pkgconfig/robo6.pc'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages'
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo6', 'pythonpath')
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/pythonpath.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/pythonpath.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/robo6/share/robo6/hook/pythonpath.sh'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/robo6/bin'
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo6)
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/robo6/share/robo6/package.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/robo6/share/robo6/package.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/robo6/share/robo6/package.sh'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/robo6/share/robo6/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/robo6/share/robo6/package.zsh'
+[1.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/robo6/share/colcon-core/packages/robo6)
+[1.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/duallife/projects/urdf/mybot' with build type 'ament_cmake'
+[1.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/duallife/projects/urdf/mybot'
+[1.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/mybot': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybot -- -j16 -l16
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/mybotv2' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybotv2 -- -j16 -l16
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/mybotv2': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybotv2
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --build /home/duallife/projects/urdf/build/mybot -- -j16 -l16
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybotv2)
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2' for CMake module files
+[1.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/mybotv2' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/ROBOv2:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble PYTHONPATH=/home/duallife/projects/urdf/install/ROBOv2/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:/home/duallife/projects/urdf/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybotv2
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2' for CMake config files
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybotv2', 'cmake_prefix_path')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.sh'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/bin'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/lib/pkgconfig/mybotv2.pc'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/lib/python3.10/site-packages'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/bin'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.bash'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.zsh'
+[1.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/mybotv2/share/colcon-core/packages/mybotv2)
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/duallife/projects/urdf/build/mybot': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybot
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybotv2)
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2' for CMake module files
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2' for CMake config files
+[1.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybotv2', 'cmake_prefix_path')
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/hook/cmake_prefix_path.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/bin'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/lib/pkgconfig/mybotv2.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybotv2/bin'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.dsv'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.bash'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybotv2/share/mybotv2/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/mybotv2/share/colcon-core/packages/mybotv2)
+[1.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot)
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot' for CMake module files
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot' for CMake config files
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/duallife/projects/urdf/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/robov2description:/home/duallife/projects/urdf/install/mybot:/home/duallife/projects/urdf/install/mybotv2:/home/duallife/projects/urdf/install/interface:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duallife/projects/urdf/install/robo6:/home/duallife/projects/urdf/install/ROBOv2:/opt/ros/humble /usr/bin/cmake --install /home/duallife/projects/urdf/build/mybot
+[1.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.sh'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/bin'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/lib/pkgconfig/mybot.pc'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/lib/python3.10/site-packages'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/bin'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/mybot/share/mybot/package.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.sh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.zsh'
+[1.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/mybot/share/colcon-core/packages/mybot)
+[1.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot)
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot' for CMake module files
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot' for CMake config files
+[1.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot', 'cmake_prefix_path')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/duallife/projects/urdf/install/mybot/share/mybot/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/lib/pkgconfig/mybot.pc'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/lib/python3.10/site-packages'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/duallife/projects/urdf/install/mybot/bin'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/duallife/projects/urdf/install/mybot/share/mybot/package.dsv'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.sh'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.bash'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/duallife/projects/urdf/install/mybot/share/mybot/package.zsh'
+[1.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/duallife/projects/urdf/install/mybot/share/colcon-core/packages/mybot)
+[1.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.412s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.427s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duallife/projects/urdf/install/local_setup.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duallife/projects/urdf/install/_local_setup_util_ps1.py'
+[1.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duallife/projects/urdf/install/setup.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duallife/projects/urdf/install/local_setup.sh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/duallife/projects/urdf/install/_local_setup_util_sh.py'
+[1.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duallife/projects/urdf/install/setup.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duallife/projects/urdf/install/local_setup.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duallife/projects/urdf/install/setup.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/duallife/projects/urdf/install/local_setup.zsh'
+[1.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/duallife/projects/urdf/install/setup.zsh'

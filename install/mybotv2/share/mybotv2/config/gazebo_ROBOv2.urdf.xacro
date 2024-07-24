@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ROBOv2">
+
+    <!-- Used for fixing robot to Gazebo 'base_link' 将机械手的基座固定在世界坐标上-->
+    <link name="world"/>
+    <joint name="fixed" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+    </joint>
+
+    <xacro:include filename="$(find ROBOv2)/urdf/ROBOv2.urdf" />
+
+    <!-- 对一些link进行gazebo的属性设置 -->
+    <gazebo reference="base_link">
+        <material>Gazebo/White</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link1">
+        <material>Gazebo/Purple</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link2">
+        <material>Gazebo/Red</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link3">
+        <material>Gazebo/Blue</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link4">
+        <material>Gazebo/Green</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link5">
+        <material>Gazebo/Yellow</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link6">
+        <material>Gazebo/Orange</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+
+    <gazebo reference="camera_link">
+        <material>Gazebo/SkyBlue</material>
+    </gazebo>
+    <gazebo reference="camera_link">
+        <sensor type="camera" name="rgb_camera">
+            <update_rate>30.0</update_rate>
+            <camera name="rgb_camera">
+                <horizontal_fov>1.91986</horizontal_fov>
+                <image>
+                    <width>960</width>
+                    <height>540</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.01</near>
+                    <far>200</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <alwaysOn>true</alwaysOn>
+                <updateRate>0.0</updateRate>
+                <cameraName>rgb_camera</cameraName>
+                <imageTopicName>image_raw</imageTopicName>
+                <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+                <frameName>camera_link</frameName>
+                <hackBaseline>0.07</hackBaseline>
+                <distortionK1>0.0</distortionK1>
+                <distortionK2>0.0</distortionK2>
+                <distortionK3>0.0</distortionK3>
+                <distortionT1>0.0</distortionT1>
+                <distortionT2>0.0</distortionT2>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <!-- 设置不了静态，不知为啥 -->
+    <gazebo>
+        <is_static>true</is_static>
+        <!-- <static>true</static> -->
+        <self_collide>false</self_collide>
+    </gazebo>
+        <!-- <xacro:macro name="robo6_ros2_control" params="name initial_positions_file"> -->
+            <!-- <xacro:property name="initial_positions" value="${load_yaml(initial_positions_file)['initial_positions']}"/> -->
+
+            <ros2_control name="GazeboSystem" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                <!-- <plugin>mock_components/GenericSystem</plugin> -->
+            </hardware>
+            <joint name="joint1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="joint2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="joint3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="joint4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="joint5">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+            <joint name="joint6">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">0</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+            </joint>
+
+        </ros2_control>
+
+        <gazebo>
+            <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+                <parameters>$(find mybotv2)/config/ros2_controllers.yaml</parameters>
+                <robot_param>robot_description</robot_param>
+                <robot_param_node>robot_state_publisher</robot_param_node>
+            </plugin>
+        </gazebo>
+
+</robot>

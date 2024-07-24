@@ -1,0 +1,20 @@
+[0.484s] Invoking command in '/home/duallife/projects/urdf/robo6': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data
+[0.671s] running egg_info
+[0.671s] writing ../build/robo6/robo6.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../build/robo6/robo6.egg-info/dependency_links.txt
+[0.672s] writing entry points to ../build/robo6/robo6.egg-info/entry_points.txt
+[0.672s] writing requirements to ../build/robo6/robo6.egg-info/requires.txt
+[0.672s] writing top-level names to ../build/robo6/robo6.egg-info/top_level.txt
+[0.673s] reading manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+[0.673s] writing manifest file '../build/robo6/robo6.egg-info/SOURCES.txt'
+[0.673s] running build
+[0.674s] running build_py
+[0.674s] running install
+[0.674s] running install_lib
+[0.675s] running install_data
+[0.675s] running install_egg_info
+[0.676s] removing '/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6-0.0.0-py3.10.egg-info' (and everything under it)
+[0.676s] Copying ../build/robo6/robo6.egg-info to /home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages/robo6-0.0.0-py3.10.egg-info
+[0.677s] running install_scripts
+[0.692s] writing list of installed files to '/home/duallife/projects/urdf/build/robo6/install.log'
+[0.713s] Invoked command in '/home/duallife/projects/urdf/robo6' returned '0': PYTHONPATH=/home/duallife/projects/urdf/build/robo6/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duallife/projects/urdf/install/robo6/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/robo6 build --build-base /home/duallife/projects/urdf/build/robo6/build install --record /home/duallife/projects/urdf/build/robo6/install.log --single-version-externally-managed install_data

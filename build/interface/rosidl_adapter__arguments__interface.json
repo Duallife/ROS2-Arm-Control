@@ -1,6 +1,0 @@
-{
-  "package_name": "interface",
-  "non_idl_tuples": [
-    "/home/duallife/projects/urdf/interface:msg/JointAngle.msg"
-  ]
-}

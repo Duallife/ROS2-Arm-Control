@@ -1,9 +1,0 @@
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/uninstall.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/mybot_uninstall.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/test.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/edit_cache.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/rebuild_cache.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/list_install_components.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/install.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/install/local.dir
-/home/duallife/projects/urdf/build/mybot/CMakeFiles/install/strip.dir

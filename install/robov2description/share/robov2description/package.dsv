@@ -1,8 +1,0 @@
-source;share/robov2description/hook/cmake_prefix_path.ps1
-source;share/robov2description/hook/cmake_prefix_path.dsv
-source;share/robov2description/hook/cmake_prefix_path.sh
-source;share/robov2description/local_setup.bash
-source;share/robov2description/local_setup.dsv
-source;share/robov2description/local_setup.ps1
-source;share/robov2description/local_setup.sh
-source;share/robov2description/local_setup.zsh
